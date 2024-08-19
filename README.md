@@ -2,7 +2,7 @@
 
 Code and Dataset coming soon!
 
-Event streams recorded using *[jAER](https://github.com/SensorsINI/jaer)v1.9.5. 
+Event streams recorded using [jAER](https://github.com/SensorsINI/jaer)v1.9.5. 
 
 ```
 @article{nair2024enhancing,
