@@ -13,11 +13,19 @@ mamba env create -f environment.yaml
 pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
 ```
 
+## Fast and Slow Biasing of Event Cameras
+
+We make use of a ROS1 node to update Event-Camera bias parameters in a online manner. (To be released soon!)
+
+## Dataset Collection
+
+The event streams were recorded using the [jAER](https://github.com/SensorsINI/jaer)v1.9.5 library for a [DAVIS346Red](https://inivation.com/wp-content/uploads/2019/08/DAVIS346.pdf) device. Information regarding setting up the jAER can be found in it's [documentation](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.en40wtalica4).
+
 ## Dataset Download and Processing
 
 Link to the dataset: https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset
 
-The event streams were recorded using the [jAER](https://github.com/SensorsINI/jaer)v1.9.5 library for a [DAVIS346Red](https://inivation.com/wp-content/uploads/2019/08/DAVIS346.pdf) device. Information regarding setting up the jAER can be found in it's [documentation](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.en40wtalica4). To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
+To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
 
 ```bash
 mamba activate evpr
