@@ -1,5 +1,8 @@
 # Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras
 
+[![Project Video](https://img.shields.io/badge/Video-Watch-red)]([your_video_link](https://www.youtube.com/embed/8D9gtHqteEQ")) [![Website](https://img.shields.io/badge/Website-Visit-blue)](your_website_link) [![Dataset](https://img.shields.io/badge/Dataset-Download-green)](your_dataset_link) [![Preprint](https://img.shields.io/badge/Preprint-Read-orange)](your_preprint_link)
+
+
 Code and Dataset coming soon!
 
 ## Code and Environment Setup
