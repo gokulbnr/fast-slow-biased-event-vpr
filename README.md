@@ -34,3 +34,7 @@ bash scripts/process_data.sh <experiment_name> <iteration_number> <path_to_exper
   year={2024}
 }
 ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
