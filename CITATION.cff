@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the following metadata."
+title: "Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras"
+authors:
+  - family-names: "Nair"
+    given-names: "Gokul B"
+  - family-names: "Milford"
+    given-names: "Michael"
+  - family-names: "Fischer"
+    given-names: "Tobias"
+year: 2024
+doi: 10.48550/arXiv.2403.16425
+url: https://arxiv.org/abs/2403.16425
+journal: "arXiv preprint"
+version: "2403.16425"
