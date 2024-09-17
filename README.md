@@ -1,6 +1,6 @@
 # Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras
 
-[![Project Video](https://img.shields.io/badge/Video-Watch-red)]([your_video_link](https://www.youtube.com/embed/8D9gtHqteEQ")) [![Website](https://img.shields.io/badge/Website-Visit-blue)](your_website_link) [![Dataset](https://img.shields.io/badge/Dataset-Download-green)](your_dataset_link) [![Preprint](https://img.shields.io/badge/Preprint-Read-orange)](your_preprint_link)
+[![Project Video](https://img.shields.io/badge/Video-Watch-red)](https://youtu.be/8D9gtHqteEQ) [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://gokulbnr.github.io/publication/dvs-biasing-vpr) [![Dataset](https://img.shields.io/badge/Dataset-Download-green)](https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset) [![Preprint](https://img.shields.io/badge/Preprint-Read-orange)](https://arxiv.org/abs/2403.16425)
 
 
 Code and Dataset coming soon!
