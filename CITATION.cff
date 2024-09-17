@@ -8,8 +8,8 @@ authors:
     given-names: "Michael"
   - family-names: "Fischer"
     given-names: "Tobias"
+type: article
 year: 2024
-doi: 10.48550/arXiv.2403.16425
 url: https://arxiv.org/abs/2403.16425
 journal: "arXiv preprint"
 version: "2403.16425"
