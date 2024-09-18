@@ -1,0 +1,6 @@
+# Network Configuration
+port_number: 8991
+write_port_number: 8995
+buffer_size: 6300
+ip_address: "127.0.0.1"
+

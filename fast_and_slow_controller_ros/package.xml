@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fast_and_slow_controller_ros</name>
+  <version>0.0.0</version>
+  <description>The udp_reader package</description>
+
+  <maintainer email="gokulbnr@gmail.com">Gokul B. Nair</maintainer>
+  <license>MIT</license> <!-- Add the license tag, you can replace it with the appropriate license -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <export>
+  </export>
+</package>
