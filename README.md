@@ -7,7 +7,7 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
 ## Code and Environment Setup
 
 ```bash
-git@github.com:gokulbnr/fast-slow-biased-event-vpr.git
+git clone git@github.com:gokulbnr/fast-slow-biased-event-vpr.git
 cd fast-slow-biased-event-vpr
 mamba env create -f environment.yaml
 pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
