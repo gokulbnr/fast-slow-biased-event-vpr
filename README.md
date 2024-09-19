@@ -19,6 +19,11 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
   </figure>
 </p>
 
+| ![First GIF](./assets/defaults.gif) | ![Image](./assets/approach.png) | ![Second GIF](./assets/tuned.gif) |
+|:-----------------------------------------------:|:----------------------------------------:|:-----------------------------------------------:|
+| Caption for First GIF                         | Caption for Image                        | Caption for Second GIF                         |
+
+
 ## Code and Environment Setup
 ```bash
 git clone git@github.com:gokulbnr/fast-slow-biased-event-vpr.git
