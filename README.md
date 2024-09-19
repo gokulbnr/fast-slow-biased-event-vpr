@@ -60,11 +60,19 @@ cd fast-slow-biased-event-vpr/event_vpr
 bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_data_root_directory> <brightness_condition>
 ```
 
-| Feature       | Description               | Status    |
-|---------------|---------------------------|-----------|
-| Feature A     | Description of Feature A  | Complete  |
-| Feature B     | Description of Feature B  | In Progress |
-| Feature C     | Description of Feature C  | Not Started |
+| Data Root                       | Experiment Names          | Brightness Conditions  |
+|---------------------------------|---------------------------|------------------------|
+| main_experiments                | Fast_Slow                 | low, medium, high      |
+|                                 | default_params            | low, medium, high      |
+|                                 | PxBw                      | low, medium, high      |
+|                                 | PxTh                      | low, medium, high      |
+|                                 | RfPr                      | low, medium, high      |
+| ablation_study_components       | constant                  | low, medium, high      |
+|                                 | fast                      | low, medium, high      |
+|                                 | slow                      | low, medium, high      |
+| ablation_study_slow_changes_freq| n2                        | low, medium, high      |
+|                                 | n7                        | low, medium, high      |
+|                                 | n10                       | low, medium, high      |
 
 ## Cite us at
 ```
