@@ -12,7 +12,7 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
   </tr>
   <tr>
     <td style="text-align: center;">With Default Biases</td>
-    <td style="text-align: center;">Proposed Bias Control Approach</td>
+    <td style="text-align: center;">Our Bias Control Approach</td>
     <td style="text-align: center;">With Proposed Approach</td>
   </tr>
 </table>
