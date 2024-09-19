@@ -8,9 +8,9 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
 
 <table>
   <tr>
-    <td><img src="./assets/defaults.gif" alt="First GIF" style="width: 100px;"/></td>
-    <td><img src="./assets/approach.png" alt="Image" style="width: 100px;"/></td>
-    <td><img src="./assets/tuned.gif" alt="Second GIF" style="width: 100px;"/></td>
+    <td><img src="./assets/defaults.gif" alt="First GIF" style="height: 200px;"/></td>
+    <td><img src="./assets/approach.png" alt="Image" style="height: 200px;"/></td>
+    <td><img src="./assets/tuned.gif" alt="Second GIF" style="height: 200px;"/></td>
   </tr>
   <tr>
     <td>With Default Biases</td>
