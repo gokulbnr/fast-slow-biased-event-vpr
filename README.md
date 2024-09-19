@@ -6,17 +6,17 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
 
-  <div style="text-align: center;">
+  <div style="flex: 1; text-align: center; margin: 5px;">
     <img src="./assets/defaults.gif" alt="First GIF" width="200"/>
     <p>With Default Biases</p>
   </div>
 
-  <div style="text-align: center;">
+  <div style="flex: 1; text-align: center; margin: 5px;">
     <img src="./assets/approach.png" alt="Image" width="200"/>
     <p>Fast and Slow Biasing</p>
   </div>
 
-  <div style="text-align: center;">
+  <div style="flex: 1; text-align: center; margin: 5px;">
     <img src="./assets/tuned.gif" alt="Second GIF" width="200"/>
     <p>With Proposed Bias Controller</p>
   </div>
