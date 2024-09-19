@@ -61,7 +61,7 @@ bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_proce
 ```
 
 | Data Root                       | Experiment Names          | Brightness Conditions  |
-|---------------------------------|---------------------------|------------------------|
+|:---------------------------------|:---------------------------|:------------------------|
 | main_experiments                | Fast_Slow                 | low, medium, high      |
 |                                 | default_params            | low, medium, high      |
 |                                 | PxBw                      | low, medium, high      |
