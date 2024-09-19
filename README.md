@@ -12,7 +12,7 @@ mamba env create -f environment.yaml
 pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
 ```
 
-## Fast and Slow Biasing of Event Cameras
+## Fast and Slow Biasing of Event Cameras (During Dataset Collection)
 We make use of a ROS1 node `fast_and_slow_controller` to update Event-Camera bias parameters in a online manner. This node has to run with [jAER](https://github.com/SensorsINI/jaer)v1.9.5 with [unicast datagram (UDP) output enabled](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.9zam901lyzxx).
 
 #### Prerequisite: [jAER](https://github.com/SensorsINI/jaer)
