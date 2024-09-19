@@ -11,9 +11,9 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
     <td><img src="./assets/tuned.gif" alt="Second GIF" style="height: 160px;"/></td>
   </tr>
   <tr>
-    <td>With Default Biases</td>
-    <td>Proposed Bias Control Approach</td>
-    <td>With Proposed Approach</td>
+    <td style="text-align: center;">With Default Biases</td>
+    <td style="text-align: center;">Proposed Bias Control Approach</td>
+    <td style="text-align: center;">With Proposed Approach</td>
   </tr>
 </table>
 
