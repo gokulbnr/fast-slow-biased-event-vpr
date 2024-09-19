@@ -53,11 +53,18 @@ bash scripts/process_data.sh <experiment_name> <iteration_number> <path_to_exper
 ```
 
 ## Visual Place Recognition (Testing Data on Downstream Task)
+We tested with Sum of Absolute Differences (SAD) to perform similarity computations between reference and query sets.
 ```bash
 mamba activate evpr
 cd fast-slow-biased-event-vpr/event_vpr
 bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_data_root_directory> <brightness_condition>
 ```
+
+| Feature       | Description               | Status    |
+|---------------|---------------------------|-----------|
+| Feature A     | Description of Feature A  | Complete  |
+| Feature B     | Description of Feature B  | In Progress |
+| Feature C     | Description of Feature C  | Not Started |
 
 ## Cite us at
 ```
