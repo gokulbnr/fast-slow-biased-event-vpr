@@ -1,6 +1,7 @@
 name: evpr
 channels:
   - conda-forge
+  - robostack-staging
 dependencies:
   - ca-certificates
   - certifi
