@@ -4,15 +4,11 @@
 
 Welcome to the official repository for the paper [**Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras**](https://arxiv.org/abs/2403.16425), to be presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024). This work introduces feedback control algorithms that dynamically change bias parameters for event-cameras to stabilize event-rate in an online manner. The work reports improvements in visual place recognition performances across variations in environment brightness conditions, validated through comprehensive real-time evaluations using a new [QCR-Fast-and-Slow-Event-Dataset](https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset).
 
-| ![First GIF](./assets/defaults.gif) | ![Image](./assets/approach.png) | ![Second GIF](./assets/tuned.gif) |
-|:-----------------------------------------------:|:----------------------------------------:|:-----------------------------------------------:|
-| Caption for First GIF                         | Caption for Image                        | Caption for Second GIF                         |
-
 <table>
   <tr>
-    <td><img src="./assets/defaults.gif" alt="First GIF" width="150"/></td>
-    <td><img src="./assets/approach.png" alt="Image" width="150"/></td>
-    <td><img src="./assets/tuned.gif" alt="Second GIF" width="150"/></td>
+    <td><img src="./assets/defaults.gif" alt="First GIF" width="30%"/></td>
+    <td><img src="./assets/approach.png" alt="Image" width="30%"/></td>
+    <td><img src="./assets/tuned.gif" alt="Second GIF" width="30%"/></td>
   </tr>
   <tr>
     <td>With Default Biases</td>
