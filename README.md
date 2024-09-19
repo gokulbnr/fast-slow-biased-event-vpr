@@ -60,19 +60,19 @@ cd fast-slow-biased-event-vpr/event_vpr
 bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_data_root_directory> <brightness_condition>
 ```
 
-| Data Root                       | Experiment Names          | Brightness Conditions  |
-|:---------------------------------|:---------------------------|:------------------------|
-| main_experiments                | Fast_Slow                 | low, medium, high      |
-|                                 | default_params            | low, medium, high      |
-|                                 | PxBw                      | low, medium, high      |
-|                                 | PxTh                      | low, medium, high      |
-|                                 | RfPr                      | low, medium, high      |
-| ablation_study_components       | constant                  | low, medium, high      |
-|                                 | fast                      | low, medium, high      |
-|                                 | slow                      | low, medium, high      |
-| ablation_study_slow_changes_freq| n2                        | low, medium, high      |
-|                                 | n7                        | low, medium, high      |
-|                                 | n10                       | low, medium, high      |
+| Data Root Directory Names       | Experiment Names          | Brightness Conditions  | Number of iterations |
+|:---------------------------------|:---------------------------|:------------------------|:---------------------|
+| main_experiments                | Fast_Slow                 | low, medium, high      | 5                    |
+|                                 | default_params            | low, medium, high      | 5                    |
+|                                 | PxBw                      | low, medium, high      | 5                    |
+|                                 | PxTh                      | low, medium, high      | 5                    |
+|                                 | RfPr                      | low, medium, high      | 5                    |
+| ablation_study_components       | constant                  | low, medium, high      | 3                    |
+|                                 | fast                      | low, medium, high      | 3                    |
+|                                 | slow                      | low, medium, high      | 3                    |
+| ablation_study_slow_changes_freq| n2                        | low, medium, high      | 3                    |
+|                                 | n7                        | low, medium, high      | 3                    |
+|                                 | n10                       | low, medium, high      | 3                    |
 
 ## Cite us at
 ```
