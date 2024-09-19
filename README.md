@@ -48,14 +48,14 @@ Link to the released dataset: https://huggingface.co/datasets/gokulbnr/QCR-Fast-
 The dataset contains raw DVS data in [AEDAT2.0](https://gitlab.com/inivation/docs/-/blob/master/source/software/software-advanced-usage/file-formats/aedat-2.0.md?ref_type=heads) format and ground truth poses of the moving camera (pose of robot on which the DAVIS346Red camera is mounted) as tf2 transforms in rosbag files. To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
 ```bash
 mamba activate evpr
-cd event_vpr
+cd fast-slow-biased-event-vpr/event_vpr
 bash scripts/process_data.sh <experiment_name> <iteration_number> <path_to_experiment_home> <save_path_for_processed_data>
 ```
 
 ## Visual Place Recognition (Testing Data on Downstream Task)
 ```bash
 mamba activate evpr
-cd event_vpr
+cd fast-slow-biased-event-vpr/event_vpr
 bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_data_root_directory> <brightness_condition>
 ```
 
