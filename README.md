@@ -48,7 +48,7 @@ Link to the dataset: https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Even
 To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
 ```bash
 mamba activate evpr
-cd data_processing
+cd event_vpr
 bash scripts/process_data.sh <experiment_name> <iteration_number> <path_to_experiment_home> <save_path_for_processed_data>
 ```
 
