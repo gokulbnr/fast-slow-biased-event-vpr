@@ -54,6 +54,8 @@ bash scripts/process_data.sh <experiment_name> <iteration_number> <path_to_exper
 
 ## Visual Place Recognition (Testing Data on Downstream Task)
 ```bash
+mamba activate evpr
+cd event_vpr
 bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_DVS_frames> <brightness_condition>
 ```
 
