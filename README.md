@@ -42,10 +42,10 @@ source devel/setup.bash
 rosrun fast_and_slow_controller_ros fast_and_slow_controller
 ```
 
-## Dataset Download and Processing
-Link to the dataset: https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset
+## Data Processing
+Link to the released dataset: https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset
 
-To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
+The dataset contains raw DVS data in [AEDAT2.0](https://gitlab.com/inivation/docs/-/blob/master/source/software/software-advanced-usage/file-formats/aedat-2.0.md?ref_type=heads) format and ground truth poses of the moving camera (pose of robot on which the DAVIS346Red camera is mounted) as tf2 transforms in rosbag files. To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
 ```bash
 mamba activate evpr
 cd event_vpr
