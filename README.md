@@ -24,7 +24,7 @@ git checkout 1.9.5
 time ant jar
 ```
 
-#### Setting up Fast and Slow ROS Node
+#### Setting up Fast and Slow Bias Controller ROS Node
 ```bash
 cd fast-slow-biased-event-vpr
 mkdir -p ~/catkin_ws/src/
@@ -35,8 +35,12 @@ catkin build
 ```
 
 #### Dataset Collection
-
-The event streams were recorded using the [jAER](https://github.com/SensorsINI/jaer)v1.9.5 library for a [DAVIS346Red](https://inivation.com/wp-content/uploads/2019/08/DAVIS346.pdf) device. Information regarding setting up the jAER can be found in it's [documentation](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.en40wtalica4).
+The event streams were recorded using the [jAER](https://github.com/SensorsINI/jaer)v1.9.5 library for a [DAVIS346Red](https://inivation.com/wp-content/uploads/2019/08/DAVIS346.pdf) device. jAER was run with [unicast datagram (UDP) output enabled](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.9zam901lyzxx) to ensure UDP communication between the `fast_and_slow_controller` ROS node and jAER is enabled. To run the ROS node: 
+```bash
+cd ~/catkin_ws/
+source devel/setup.bash
+rosrun fast_and_slow_controller_ros fast_and_slow_controller
+```
 
 ## Dataset Download and Processing
 
