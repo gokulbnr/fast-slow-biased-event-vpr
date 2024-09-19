@@ -31,6 +31,7 @@ conda install mamba -c conda-forge
 git clone git@github.com:gokulbnr/fast-slow-biased-event-vpr.git
 cd fast-slow-biased-event-vpr
 mamba env create -f environment.yaml
+mamba activate evpr
 pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
 ```
 
