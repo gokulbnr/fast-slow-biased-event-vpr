@@ -59,7 +59,7 @@ mamba activate evpr
 cd fast-slow-biased-event-vpr/event_vpr
 bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_data_root_directory> <brightness_condition>
 ```
-
+The `experiment_names` follow the same nomenclature as that in the [paper manuscript](https://arxiv.org/abs/2403.16425). `PxBw`, `PxTh`, `RfPr` were available within jAER in the list of Filters (bottom left tab on the GUI). They are available under the DVSBiasController Filter in jAER. `default_params` corresponds to 
 | Data Root Directory Names       | Experiment Names          | Brightness Conditions  | Number of iterations |
 |:---------------------------------:|:---------------------------:|:------------------------:|:---------------------:|
 | main_experiments                | Fast_Slow                 | low, medium, high      | 5                    |
