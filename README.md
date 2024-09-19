@@ -8,17 +8,17 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
 
   <div style="text-align: center;">
     <img src="./assets/defaults.gif" alt="First GIF" width="200"/>
-    <p>Caption for First GIF</p>
+    <p>With Default Biases</p>
   </div>
 
   <div style="text-align: center;">
     <img src="./assets/approach.png" alt="Image" width="200"/>
-    <p>Caption for Image</p>
+    <p>Fast and Slow Biasing</p>
   </div>
 
   <div style="text-align: center;">
     <img src="./assets/tuned.gif" alt="Second GIF" width="200"/>
-    <p>Caption for Second GIF</p>
+    <p>With Proposed Bias Controller</p>
   </div>
 
 </div>
