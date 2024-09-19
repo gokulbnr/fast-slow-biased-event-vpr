@@ -1,12 +1,12 @@
 name: evpr
 channels:
-  - robostack-staging
   - conda-forge
 dependencies:
+  - ca-certificates
+  - certifi
+  - fastparquet
+  - openssl
   - python=3.9
   - ros-noetic-desktop
-  - ca-certificates
-  - openssl
-  - fastparquet
-  - certifi
+  - catkin_tools
 prefix: /home/gokulbnr/mambaforge/envs/evpr
