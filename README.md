@@ -72,7 +72,7 @@ The dataset contains raw DVS data in [AEDAT2.0](https://gitlab.com/inivation/doc
 ```bash
 mamba activate evpr
 cd fast-slow-biased-event-vpr/event_vpr
-bash scripts/process_data.sh <experiment_name> <iteration_number> <path_to_experiment_home> <save_path_for_processed_data>
+bash scripts/process_data.sh <experiment_name> <number_of_iterations> <path_to_experiment_home> <save_path_for_processed_data>
 ```
 
 ## Visual Place Recognition (Testing Data on Downstream Task)
