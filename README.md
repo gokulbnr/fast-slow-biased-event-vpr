@@ -44,6 +44,7 @@ rosrun fast_and_slow_controller_ros fast_and_slow_controller
 
 ## Dataset Download and Processing
 Link to the dataset: https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset
+
 To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
 ```bash
 mamba activate evpr
