@@ -9,12 +9,10 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
     <img src="./assets/defaults.gif" alt="First GIF" width="200" />
     <figcaption>With Default Biases</figcaption>
   </figure>
-
   <figure style="display: inline-block; margin: 0 10px;">
     <img src="./assets/approach.png" alt="Image" width="200" />
     <figcaption>Proposed Bias Control Approach</figcaption>
-  </figure>
-
+  </figure>\
   <figure style="display: inline-block; margin: 0 10px;">
     <img src="./assets/tuned.gif" alt="Second GIF" width="200" />
     <figcaption>With Proposed Approach</figcaption>
