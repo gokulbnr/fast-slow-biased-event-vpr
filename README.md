@@ -17,7 +17,7 @@ Welcome to the official repository for the paper [**Enhancing Visual Place Recog
   </tr>
 </table>
 
-## Getting Started with Mamba
+## Getting Started with [Mamba](https://mamba.readthedocs.io/en/latest/)
 Borrowing the story from [Robostack](https://robostack.github.io/GettingStarted.html): To get started with conda (or mamba) as package managers, you need to have a base conda installation. Please do not use the Anaconda installer, but rather start with miniforge that is much more "minimal" installer. This installer will create a "base" environment that contains the package managers conda and mamba. After this installation is done, you can move on to the next steps.
 
 When you already have a conda installation you can install mamba with:
