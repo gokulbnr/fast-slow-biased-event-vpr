@@ -65,7 +65,8 @@ bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_proce
   title={Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras},
   author={Nair, Gokul B and Milford, Michael and Fischer, Tobias},
   journal={arXiv preprint arXiv:2403.16425},
-  year={2024}
+  year={2024},
+  note={Accepted to the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024)}
 }
 ```
 
