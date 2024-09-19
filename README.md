@@ -4,6 +4,25 @@
 
 Welcome to the official repository for the paper [**Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras**](https://arxiv.org/abs/2403.16425), to be presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024). This work introduces feedback control algorithms that dynamically change bias parameters for event-cameras to stabilize event-rate in an online manner. The work reports improvements in visual place recognition performances across variations in environment brightness conditions, validated through comprehensive real-time evaluations using a new [QCR-Fast-and-Slow-Event-Dataset](https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset).
 
+<div style="display: flex; justify-content: space-around; align-items: center;">
+
+  <div style="text-align: center;">
+    <img src="./assets/defaults.gif" alt="First GIF" width="200"/>
+    <p>Caption for First GIF</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="./assets/approach.png" alt="Image" width="200"/>
+    <p>Caption for Image</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="./assets/tuned.gif" alt="Second GIF" width="200"/>
+    <p>Caption for Second GIF</p>
+  </div>
+
+</div>
+
 ## Code and Environment Setup
 ```bash
 git clone git@github.com:gokulbnr/fast-slow-biased-event-vpr.git
