@@ -52,7 +52,7 @@ time ant jar
 cd fast-slow-biased-event-vpr
 mkdir -p ~/catkin_ws/src/
 mv fast_and_slow_controller_ros ~/catkin_ws/src/
-cd ~/catkin_ws/src/
+cd ~/catkin_ws/
 mamba activate evpr
 catkin build
 ```
