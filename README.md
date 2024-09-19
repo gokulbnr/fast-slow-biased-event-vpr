@@ -5,7 +5,6 @@
 Welcome to the official repository for the paper [**Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras**](https://arxiv.org/abs/2403.16425), to be presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024). This work introduces feedback control algorithms that dynamically change bias parameters for event-cameras to stabilize event-rate in an online manner. The work reports improvements in visual place recognition performances across variations in environment brightness conditions, validated through comprehensive real-time evaluations using a new [QCR-Fast-and-Slow-Event-Dataset](https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset).
 
 ## Code and Environment Setup
-
 ```bash
 git clone git@github.com:gokulbnr/fast-slow-biased-event-vpr.git
 cd fast-slow-biased-event-vpr
@@ -14,14 +13,11 @@ pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
 ```
 
 ## Fast and Slow Biasing of Event Cameras
-
 We make use of a ROS1 node `fast_and_slow_controller` to update Event-Camera bias parameters in a online manner. This node has to run with [jAER](https://github.com/SensorsINI/jaer)v1.9.5 with [unicast datagram (UDP) output enabled](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.9zam901lyzxx).
 
 ### Setup jAER
-
-To sort out your dependencies for jAER, please use its [user guide](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.ukkzt7422992).
-
-```
+To sort out your dependencies for jAER, please use its [user guide](https://docs.google.com/document/d/1fb7VA8tdoxuYqZfrPfT46_wiT1isQZwTHgX8O22dJ0Q/edit#heading=h.ukkzt7422992). The proposed approach has been rigorously tested on devices running Ubuntu 20 and Ubuntu 22, both utilizing x86_64 architecture. The instructions to setup jAER up is as follows: 
+```bash
 git clone git@github.com:SensorsINI/jaer.git
 cd jaer
 git checkout 1.9.5
