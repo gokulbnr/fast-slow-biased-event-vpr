@@ -10,4 +10,5 @@ dependencies:
   - python=3.9
   - ros-noetic-desktop
   - catkin_tools
+  - seaborn
 prefix: /home/gokulbnr/mambaforge/envs/evpr
