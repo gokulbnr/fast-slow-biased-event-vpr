@@ -4,10 +4,13 @@ channels:
   - robostack-staging
 dependencies:
   - ca-certificates
+  - catkin_tools
   - certifi
   - fastparquet
   - openssl
   - python=3.9
   - ros-noetic-desktop
-  - catkin_tools
+  - tqdm
+  - scikit-learn
+  - seaborn
 prefix: /home/gokulbnr/mambaforge/envs/evpr
