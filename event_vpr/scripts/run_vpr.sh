@@ -50,7 +50,7 @@ fi
 # Mamba setups
 eval "$(conda shell.bash hook)"
 source /home/gokulbnr/mambaforge/etc/profile.d/mamba.sh
-mamba activate ros
+mamba activate evpr
 
 for iter in $(seq 1 $num_iters); do
     for condition in "h" "m" "l"; do
