@@ -10,7 +10,11 @@ dependencies:
   - openssl
   - python=3.9
   - ros-noetic-desktop
+<<<<<<< HEAD
   - tqdm
   - scikit-learn
+=======
+  - catkin_tools
+>>>>>>> 6f2a477c1f7459e7af1415dd3d8e7e6fc85728ac
   - seaborn
 prefix: /home/gokulbnr/mambaforge/envs/evpr
