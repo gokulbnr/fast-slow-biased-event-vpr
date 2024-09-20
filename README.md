@@ -86,10 +86,10 @@ The `experiment_names` follow the same nomenclature as that in the main tables o
 | Data Root Directory Names       | Experiment Names          | Brightness Conditions  | Number of iterations |
 |:---------------------------------:|:---------------------------:|:------------------------:|:---------------------:|
 | main_experiments                | Fast_Slow                 | low, medium, high      | 5                    |
-| ^^                              | default_params            | low, medium, high      | 5                    |
-| ^^                              | PxBw                      | low, medium, high      | 5                    |
-| ^^                              | PxTh                      | low, medium, high      | 5                    |
-| ^^                              | RfPr                      | low, medium, high      | 5                    |
+|                                 | default_params            | low, medium, high      | 5                    |
+|                                 | PxBw                      | low, medium, high      | 5                    |
+|                                 | PxTh                      | low, medium, high      | 5                    |
+|                                 | RfPr                      | low, medium, high      | 5                    |
 | ablation_study_components       | constant                  | low, medium, high      | 3                    |
 |                                 | fast                      | low, medium, high      | 3                    |
 |                                 | slow                      | low, medium, high      | 3                    |
