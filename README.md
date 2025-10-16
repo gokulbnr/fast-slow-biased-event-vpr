@@ -45,6 +45,7 @@ pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
 ```
 
 ### Using Pixi
+How to setup Pixi in your machine? Checkout: https://pixi.sh/latest/installation/
 ```bash
 pixi install
 ```
