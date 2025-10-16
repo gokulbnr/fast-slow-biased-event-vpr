@@ -30,9 +30,18 @@ conda install mamba -c conda-forge
 ```bash
 git clone git@github.com:gokulbnr/fast-slow-biased-event-vpr.git
 cd fast-slow-biased-event-vpr
+```
+
+### Using Mamba
+```bash
 mamba env create -f environment.yaml
 mamba activate evpr
 pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
+```
+
+### Using Pixi
+```bash
+pixi install
 ```
 
 ## Fast and Slow Biasing of Event Cameras (During Dataset Collection)
@@ -52,8 +61,21 @@ time ant jar
 cd fast-slow-biased-event-vpr
 mkdir -p ~/catkin_ws/src/
 mv fast_and_slow_controller_ros ~/catkin_ws/src/
-cd ~/catkin_ws/
+```
+
+### Using Mamba
+```bash
 mamba activate evpr
+cd ~/catkin_ws/
+source devel/setup.bash
+catkin build
+```
+
+### Using Pixi
+```bash
+pixi shell
+cd ~/catkin_ws/
+source devel/setup.bash
 catkin build
 ```
 
@@ -69,19 +91,39 @@ rosrun fast_and_slow_controller_ros fast_and_slow_controller
 Link to the released dataset: https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset
 
 The dataset contains raw DVS data in [AEDAT2.0](https://gitlab.com/inivation/docs/-/blob/master/source/software/software-advanced-usage/file-formats/aedat-2.0.md?ref_type=heads) format and ground truth poses of the moving camera (pose of robot on which the DAVIS346Red camera is mounted) as tf2 transforms in rosbag files. To process raw data from traverses into geotagged image sequences, please use `scripts/process_data.sh`.
+
+### Using Mamba
+
 ```bash
 mamba activate evpr
-cd fast-slow-biased-event-vpr/event_vpr
+cd event_vpr
+bash scripts/process_data.sh <experiment_name> <number_of_iterations> <path_to_experiment_home> <save_path_for_processed_data>
+```
+
+### Using Pixi
+```bash
+pixi shell
+cd event_vpr
 bash scripts/process_data.sh <experiment_name> <number_of_iterations> <path_to_experiment_home> <save_path_for_processed_data>
 ```
 
 ## Visual Place Recognition (Testing Data on Downstream Task)
 We tested with Sum of Absolute Differences (SAD) to perform similarity computations between reference and query sets.
+
+### Using Mamba
 ```bash
 mamba activate evpr
-cd fast-slow-biased-event-vpr/event_vpr
+cd event_vpr
 bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_data_root_directory> <brightness_condition>
 ```
+
+### Using Pixi
+```bash
+pixi shell
+cd event_vpr
+bash scripts/run_vpr.sh <experiment_name> <save_path_for_results> <path_to_processed_data_root_directory> <brightness_condition>
+```
+
 The `experiment_names` follow the same nomenclature as that in the main tables of the [paper manuscript](https://arxiv.org/abs/2403.16425). `PxBw`, `PxTh`, `RfPr` were available within jAER in the list of Filters (bottom left tab on the GUI). They are available under the DVSBiasController Filter in jAER. `default_params` corresponds to jAER's constant bias settings when `photoreceptor bandwidth`, `event threshold`, and `max pixel firing rate` parameters are all at 0. These parameters can be found under "User Friendly Settings" within "HW Configuration" (bottom left tab on GUI). `Fast_Slow` corresponds to results using our Fast and Slow Bias Controller. Here's a list of permitted values for arguments `<data_root>`, `<experiment_name>`, `brightness_condition`, and `iteration`. 
 | Data Root Directory Names       | Experiment Names          | Brightness Conditions  | Number of iterations |
 |:---------------------------------:|:---------------------------:|:------------------------:|:---------------------:|

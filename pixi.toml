@@ -1,0 +1,23 @@
+[workspace]
+authors = ["Gokul B. Nair <gokulbnr@gmail.com>"]
+channels = ["conda-forge", "robostack-staging"]
+name = "evpr"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ca-certificates = "*"
+catkin_tools = "*"
+certifi = "*"
+fastparquet = "*"
+openssl = "*"
+python = "3.9.*"
+ros-noetic-desktop = "*"
+tqdm = "*"
+scikit-learn = "*"
+seaborn = "*"
+
+[pypi-dependencies]
+tonic = { git = "ssh://git@github.com/gokulbnr/tonic.git", rev="develop" }
