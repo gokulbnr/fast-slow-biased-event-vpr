@@ -1,5 +1,10 @@
 # Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras
 
+[![Pixi](https://img.shields.io/badge/pixi-supported-brightgreen?style=for-the-badge&logo=pixi)](https://pixi.sh)
+[![Mamba](https://img.shields.io/badge/mamba-supported-brightgreen?style=for-the-badge&logo=anaconda)](https://mamba.readthedocs.io/)
+[![RoboStack](https://img.shields.io/badge/robostack-supported-brightgreen?style=for-the-badge&logo=ros)](https://robostack.github.io)
+
+
 [![Project Video](https://img.shields.io/badge/Video-Watch-red)](https://www.youtube.com/watch?v=8D9gtHqteEQ) [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://gokulbnr.github.io/publication/dvs-biasing-vpr) [![Dataset](https://img.shields.io/badge/Dataset-Download-green)](https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset) [![Preprint](https://img.shields.io/badge/Preprint-Read-orange)](https://arxiv.org/abs/2403.16425)
 
 Welcome to the official repository for the paper [**Enhancing Visual Place Recognition via Fast and Slow Adaptive Biasing in Event Cameras**](https://arxiv.org/abs/2403.16425), to be presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024). This work introduces feedback control algorithms that dynamically change bias parameters for event-cameras to stabilize event-rate in an online manner. The work reports improvements in visual place recognition performances across variations in environment brightness conditions, validated through comprehensive real-time evaluations using a new [QCR-Fast-and-Slow-Event-Dataset](https://huggingface.co/datasets/gokulbnr/QCR-Fast-Slow-Event-Dataset).
@@ -40,7 +45,6 @@ pip install git+ssh://git@github.com/gokulbnr/tonic.git@develop
 ```
 
 ### Using Pixi
-[![Pixi](https://img.shields.io/badge/Powered%20by-Pixi-44BFC8?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTUuOTY0IDkuMDY2YTIuNDUzIDIuNDUzIDAgMCAxIDIuNTk0LTIuMzY1YzEuMzgzIDAgMi40OTQuOTc1IDIuNTk1IDIuMzY1aDQuMTgzYy0uMTI3LTIuODgtMi40MTgtNS4yMjctNS4xMDItNS41MDVhNS41NDIgNS41NDIgMCAwIDAtNi4zNjMgNS41MDVIMTEuNzZjLjEwMS0xLjM5IDIuMjItMi4zNjUgNC4yMDQtMi4zNjUgMi4zOTUgMCA0LjI1NiAxLjcyIDQuMjU2IDMuODQ3aC0yLjg1YTIuNDI0IDIuNDI0IDAgMCAxLTIuNDQ3LTIuMTgybC0uMDQ5LS4xOTd6bTcuODg1IDguOTY5YTQuMjg5IDQuMjg5IDAgMCAxLTMuODk3IDMuODY1SDExLjc2YTQuMjg5IDQuMjg5IDAgMCAxLTMuODk3LTMuODY1IDQuMjg5IDQuMjg5IDAgMCAxIDMuODk3LTMuODY1aDguMTg2YTQuMjg5IDQuMjg5IDAgMCAxIDMuODk2IDMuODY1bC4wMDEgMHpNMTUuOTYgMjMuMjljLTIuOTU3IDAtNS4zOTItMi4xMjgtNS41MDgtNS4wMThIMTEuNzZjLjExMyAyLjYxNyAyLjQ3MyA0LjYyMyA1LjAxIDQuNjIzaDQuMTg2Yy0uMTQ2IDIuODkzLTIuNjQxIDUuMDE4LTUuMDEgNS4wMTh6Ii8+PC9zdmc+)](https://pixi.sh)
 ```bash
 pixi install
 ```
